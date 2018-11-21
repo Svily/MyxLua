@@ -246,7 +246,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\TestxLua.cs" />
+    <Compile Include="Assets\Scripts\DebugManager.cs" />
+    <Compile Include="Assets\Scripts\LuaEnvManager.cs" />
+    <Compile Include="Assets\Scripts\MyHotfixTest.cs" />
+    <Compile Include="Assets\Scripts\MyTestClass.cs" />
     <Compile Include="Assets\XLua\Examples\01_Helloworld\Helloworld.cs" />
     <Compile Include="Assets\XLua\Examples\02_U3DScripting\LuaBehaviour.cs" />
     <Compile Include="Assets\XLua\Examples\04_LuaObjectOrented\InvokeLua.cs" />
