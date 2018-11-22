@@ -1,7 +1,11 @@
 
+--热更新脚本入口
+
+
 --加载补丁列表
 CS.UnityEngine.Debug.Log('Loading Patchs, Please wait.....')
 local patchList = require('PatchList')
+
 --运行热更新补丁
 CS.UnityEngine.Debug.Log('Patching.....')
 for index,patch in ipairs(patchList) do

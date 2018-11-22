@@ -9,6 +9,7 @@
 --]]
 
 
+--返回补丁列表
 return{
 	'FixMyLogManager'
 }

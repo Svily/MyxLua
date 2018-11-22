@@ -1,4 +1,5 @@
 ﻿--修改MyLogManager的Log函数
+
 xlua.hotfix(CS.MyLogManager, 'Log',function(self) 
     local str = '热更新后: Hello Hotfix!'
 	CS.UnityEngine.Debug.Log(str) 
