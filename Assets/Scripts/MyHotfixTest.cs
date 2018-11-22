@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using XLua;
 
-//热更新启动类
+//热更新入口类
 public class MyHotfixTest : MonoBehaviour {
 
 	void Start ()
