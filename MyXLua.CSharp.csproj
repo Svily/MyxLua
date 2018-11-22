@@ -246,9 +246,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\DebugManager.cs" />
     <Compile Include="Assets\Scripts\LuaEnvManager.cs" />
     <Compile Include="Assets\Scripts\MyHotfixTest.cs" />
+    <Compile Include="Assets\Scripts\MyLogManager.cs" />
     <Compile Include="Assets\Scripts\MyTestClass.cs" />
     <Compile Include="Assets\XLua\Examples\01_Helloworld\Helloworld.cs" />
     <Compile Include="Assets\XLua\Examples\02_U3DScripting\LuaBehaviour.cs" />
@@ -352,6 +352,9 @@
     <Compile Include="Assets\XLua\Tutorial\LuaCallCSharp\LuaCallCs.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Resources\FixMyLogManager.lua.txt" />
+    <None Include="Assets\Resources\PatchList.lua.txt" />
+    <None Include="Assets\Resources\StartHotfix.lua.txt" />
     <None Include="Assets\XLua\CHANGELOG.txt" />
     <None Include="Assets\XLua\Examples\02_U3DScripting\LuaTestScript.lua.txt" />
     <None Include="Assets\XLua\Examples\03_UIEvent\ButtonInteraction.lua.txt" />

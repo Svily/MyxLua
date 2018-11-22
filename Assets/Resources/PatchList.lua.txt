@@ -1,0 +1,14 @@
+﻿--[[
+	将所有热更新补丁填写在此,如:
+
+	return{
+		'Patch1',
+		'Patch2',
+		'Patch3',
+	}
+--]]
+
+
+return{
+	'FixMyLogManager'
+}

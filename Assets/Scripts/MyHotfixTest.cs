@@ -4,19 +4,17 @@ using System.Collections.Generic;
 using UnityEngine;
 using XLua;
 
+//热更新启动类
 public class MyHotfixTest : MonoBehaviour {
-
 
 	void Start ()
 	{
-        MyTestClass myTestClass = new MyTestClass();
-
-        Debug.Log(myTestClass.HelloHotfix());
-
-	    LuaEnvManager.luaEnv.DoString(@"xlua.hotfix(CS.MyTestClass, 'HelloHotfix', function(self) return '热更新后' end)");
-
-	    Debug.Log (myTestClass.HelloHotfix ());
-
+        //热更新前log函数调用
+	    MyLogManager.Instance.Log();
+        //启动热更新
+	    LuaEnvManager.luaEnv.DoString("require('StartHotfix')");
+        //热更新后函数调用
+	    MyLogManager.Instance.Log();
     }
 	
 
